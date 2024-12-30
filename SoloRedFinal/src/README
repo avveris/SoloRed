@@ -1,0 +1,12 @@
+I redid the model and view I submitted from HW2, I represented the rules for the cards as an
+interface, and class.  Then I implemented those rules into the model.  I extended the card interface
+into card pub, so I could have more methods, then I put that into card impl to make "physical"
+representations of cards.  I emailed Prof Nunez last thursday about my HW2, so I didnt utilize it
+at all during this phase of the SoloRedGame.
+
+
+UPDATE !!!
+So my game wasn't runnning because my drawForHand method was called before the hand was initialized,
+so I ended up having to edit my soloredgamemodel to get that to work.  I had to change some of my
+access modifiers to be protected instead of private.  I also didn't have time
+to test my controller, so I worked on that, making a MockRedGameInputs class and applying that.
